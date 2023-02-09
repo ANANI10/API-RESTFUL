@@ -1,0 +1,16 @@
+POST http://127.0.0.1:5000/Order/add 
+Content-Type: application/json
+
+
+{
+    "id":1,
+    "createDate":"2020-12-20"
+    
+}
+
+
+
+###
+
+POST http://127.0.0.1/Order/delete
+Content-Type: application/json
